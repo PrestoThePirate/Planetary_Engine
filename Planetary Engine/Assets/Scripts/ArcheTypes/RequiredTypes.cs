@@ -19,7 +19,7 @@ namespace BaseGame
             //    );
 
             //return playerBodyArchetype;
-            ComponentType[] ArcheTypes = 
+            ComponentType[] ArcheType = 
             {
                 typeof(LocalToWorld),
                 typeof(Translation),
@@ -29,7 +29,7 @@ namespace BaseGame
                 typeof(HasCameraTag)
             };
 
-            return ArcheTypes;
+            return ArcheType;
 
         }
 

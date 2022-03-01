@@ -30,6 +30,8 @@ public class CameraController : MonoBehaviour
     void Start()
     {
 
+        entityManager = World.DefaultGameObjectInjectionWorld.EntityManager;
+
         EntityArchetype playerBodyArchetype = entityManager.CreateArchetype(BaseGame.RequiredTypes.PlayerBodyArchetype());
 
         Entity PlayerBody = entityManager.CreateEntity(playerBodyArchetype);

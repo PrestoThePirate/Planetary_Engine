@@ -4,7 +4,7 @@ using UnityEngine;
 using Unity.Entities;
 using Unity.Mathematics;
 
-public class Test2 : IComponentData
+public struct Test2 : IComponentData
 {
 
     public float3 position;
